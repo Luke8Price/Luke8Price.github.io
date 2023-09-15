@@ -20,6 +20,7 @@ $(function () {
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200); //right
     createPlatform(-50, -50, 50, canvas.height + 500); //bottom
     createPlatform(canvas.width, -50, 50, canvas.height + 100);
+  
 
     /**
      * Uncomment the loops below to add a "grid" to your platformer game's screen
@@ -51,12 +52,13 @@ createPlatform(230, 520, 60, 10)
     createPlatform(1100, 550, 30, 10)
     createPlatform(1300, 460, 30, 10)
     createPlatform(1370, 340, 20, 10)
-    createPlatform(1200, 340, 20, 10)
-    createPlatform(1215, 270, 10, 80)
+    createPlatform(1160, 340, 65, 10)
+    createPlatform(1215, 260, 10, 90) // vertical wall you jump over
     createPlatform(1080, 340, 80, 10)
     createPlatform(340, 280, 60, 15)
     createPlatform(215, 240, 60, 15)
-    createPlatform(30, 140, 60, 15)
+   
+    createPlatform(60, 140, 10, 700)
 
 
     // below are the invisible platforms
@@ -73,7 +75,7 @@ createPlatform(230, 520, 60, 10)
     
     createCollectable("steve", 230, 420,)
     createCollectable("steve", 1100, 300)
-    createCollectable("steve", 42, 87, 0)
+    createCollectable("steve", 10, 700, 0)
 
 
     // TODO 3
