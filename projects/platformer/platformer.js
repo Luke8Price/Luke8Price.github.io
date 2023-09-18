@@ -57,9 +57,8 @@ createPlatform(230, 520, 60, 10)
     createPlatform(1080, 340, 80, 10)
     createPlatform(340, 280, 60, 15)
     createPlatform(215, 240, 60, 15)
-   
     createPlatform(60, 140, 10, 700)
-
+    createPlatform(60, 0, 10, 55)
 
     // below are the invisible platforms
     createPlatform(497, 610, 10, .0001)
