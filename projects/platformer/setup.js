@@ -93,7 +93,8 @@ var collectableList = {
   database: { image: "images/collectables/database.png" },
   diamond: { image: "images/collectables/diamond-head.png" },
   grace: { image: "images/collectables/grace-head.png" },
-  kennedi: { image: "images/collectables/kennedi-head.png" },
-  max: { image: "images/collectables/max-head.png" },
+  kennedi: { image: "https://www.onlygfx.com/wp-content/uploads/2020/11/stack-of-gold-coins-6.png" },
+  max: { image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/2006_Quarter_Proof.png/780px-2006_Quarter_Proof.png" },
   steve: { image: "https://studentden.com/wp-content/uploads/2019/09/Penny-PNG-Clipart.png" },
+
 };

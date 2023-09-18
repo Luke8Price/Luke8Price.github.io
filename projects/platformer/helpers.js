@@ -713,6 +713,8 @@ function handleKeyUp(e) {
   if (e.key === " ") {
     keyPress.space = false;
   }
+
+  
 }
 
 function loadJson() {
