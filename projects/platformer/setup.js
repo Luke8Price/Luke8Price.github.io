@@ -16,7 +16,7 @@ const playerScale = 0.8; //makes the player just a bit smaller. Doesn't affect t
 // Player variables
 const player = {
   x: 80,
-  y: 700,
+  y: 740,
   speedX: 0,
   speedY: 0,
   width: undefined,
@@ -92,7 +92,7 @@ let animationDetails = {};
 var collectableList = {
   database: { image: "images/collectables/database.png" },
   diamond: { image: "images/collectables/diamond-head.png" },
-  grace: { image: "images/collectables/grace-head.png" },
+  grace: { image: "https://upload.wikimedia.org/wikipedia/commons/d/dd/2017-D_Roosevelt_dime_obverse_transparent.png" },
   kennedi: { image: "https://www.onlygfx.com/wp-content/uploads/2020/11/stack-of-gold-coins-6.png" },
   max: { image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/2006_Quarter_Proof.png/780px-2006_Quarter_Proof.png" },
   steve: { image: "https://studentden.com/wp-content/uploads/2019/09/Penny-PNG-Clipart.png" },

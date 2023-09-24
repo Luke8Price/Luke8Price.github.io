@@ -57,9 +57,16 @@ createPlatform(230, 520, 60, 10)
     createPlatform(1080, 340, 80, 10)
     createPlatform(340, 280, 60, 15)
     createPlatform(215, 240, 60, 15)
-    createPlatform(60, 140, 10, 700)
+    createPlatform(60, 140, 10, 180) //high wall below room
     createPlatform(60, 0, 10, 55)
+     createPlatform(60, 410, 10, 330)   //above room wall
+createPlatform(5, 490, 10, 10) // inside side wall where u jump off of
+//inside the room below
 
+createPlatform(60, 410, 100, 10)
+createPlatform(150, 320, 10, 100)
+createPlatform(60, 320, 100, 10)
+//inside he room above
     // below are the invisible platforms
     createPlatform(497, 610, 10, .0001)
     createPlatform(719, 340, 360, .00001)
@@ -74,7 +81,8 @@ createPlatform(230, 520, 60, 10)
     
     createCollectable("steve", 240, 320, .4, 1)
     createCollectable("max", 1100, 300)
-    createCollectable("kennedi", 10, 700, 0)
+    createCollectable("kennedi", 100, 365, 0)
+    createCollectable("grace", 1360, 550, 0, 0)
 
 
     // TODO 3
