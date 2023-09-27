@@ -60,7 +60,7 @@ createPlatform(230, 520, 60, 10)
     createPlatform(60, 140, 10, 180) //high wall below room
     createPlatform(60, 0, 10, 55)
      createPlatform(60, 410, 10, 330)   //above room wall
-createPlatform(5, 490, 10, 10) // inside side wall where u jump off of
+createPlatform(0, 490, 15, 10) // inside side wall where u jump off of
 //inside the room below
 
 createPlatform(60, 410, 100, 10)
