@@ -66,6 +66,7 @@ createPlatform(0, 490, 15, 10) // inside side wall where u jump off of
 createPlatform(60, 410, 100, 10)
 createPlatform(150, 320, 10, 100)
 createPlatform(60, 320, 100, 10)
+
 //inside he room above
     // below are the invisible platforms
     createPlatform(497, 610, 10, .0001)

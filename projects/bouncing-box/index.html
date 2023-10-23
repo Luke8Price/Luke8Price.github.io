@@ -16,6 +16,7 @@
 			position: absolute;
 			top: 100px;
 			left: 0px;  /* <--- Change me! */
+			background-image: 
 		}
 		.board{
 			height: 100vh;
@@ -52,6 +53,7 @@
 				box.css("left", newPositionX);
 			}
 
+
 			// changes the text displayed on the Box
 			function changeBoxText(newText) {
 				box.text(newText);
@@ -62,7 +64,9 @@
 			//////////////////////////////////////////////////////////////////
 			
 			// TODO 2 - Variable declarations 
-			
+			var positionX = 0;
+			var points = 0;
+			var speed = 10;
 
 			
 			/* 
@@ -71,9 +75,20 @@
 			turn it around! 
 			*/
 			function update() {
-				
-
+				/* Your Code to Increase positionX by 10 HERE*/
+				positionX = positionX + speed;
+			moveBoxTo(positionX);
+			if (positionX > boardWidth) {
+				// then X, Y, and Z
+				speed = -speed;
+			} 
+			if (positionX < 0) {
+				speed = speed * -1;
+			}
 			};
+
+
+		
 
 			/* 
 			This Function will be called each time the box is clicked. Each time it is called,
@@ -81,7 +96,15 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-				
+				positionX = 0;
+				points = points + 1;
+				changeBoxText(points);
+				speed = speed + 3; 
+				if (speed > 0) {
+					speed = speed + 3;
+				} else if (speed < 0) {
+					speed = speed - 3;
+				}
 
 
 			};
